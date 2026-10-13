@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Lamarca &amp; Co. · Coral Gables</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap">
+<style>
+:root{--navy:#142e43;--sand:#ebe6e0;--paper:#ffffff;--ink:#121a21;--muted:#5b6670;--line:#d9d2c8;--brass:#a8823f;
+  --display:"Urbanist","Avenir Next","Segoe UI",system-ui,sans-serif;--body:"Poppins","Segoe UI",system-ui,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--sand);color:var(--ink);font-family:var(--body);line-height:1.6;padding-inline:16px}
+.page{max-width:880px;margin-inline:auto;padding-block:64px 80px;display:grid;gap:40px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:500}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(34px,6vw,54px);line-height:1.05;margin:10px 0 14px;color:var(--navy);text-wrap:balance}
+.lede{color:var(--muted);max-width:60ch;margin:0}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{display:grid;gap:10px;align-content:start;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:28px;text-decoration:none;color:inherit;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--navy);transform:translateY(-2px)}
+.card:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.card h2{font-family:var(--display);font-size:24px;font-weight:600;margin:0;color:var(--navy)}
+.card p{margin:0;font-size:14.5px;color:var(--muted)}
+.card .go{font-size:14px;font-weight:500;color:var(--navy)}
+.tag{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);font-weight:500}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+@media (max-width:640px){.cards{grid-template-columns:1fr}.page{padding-block:40px 56px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <span class="eyebrow">Lamarca &amp; Co. · lamarcaandco.com/coralgables</span>
+    <h1>Landing de Coral Gables</h1>
+    <p class="lede">Auditoría de la página actual y propuesta de rediseño para usarla en la campaña paga y para posicionar "coral gables homes for sale" en Google.</p>
+  </header>
+  <div class="cards">
+    <a class="card" href="audit.html">
+      <span class="tag">Diagnóstico</span>
+      <h2>Auditoría</h2>
+      <p>Contenido, SEO y diseño de la página actual, con el score de preparación para campaña y el plan de implementación en Squarespace.</p>
+      <span class="go">Ver auditoría →</span>
+    </a>
+    <a class="card" href="mockup.html">
+      <span class="tag">Propuesta</span>
+      <h2>Mockup UX/UI</h2>
+      <p>Cómo debería verse la página. Activa "Mostrar notas UX" arriba para ver por qué cada sección está hecha así. Los campos con borde punteado son datos pendientes.</p>
+      <span class="go">Ver mockup →</span>
+    </a>
+  </div>
+  <footer>Preparado por Juan Marcos Pante · Octubre de 2026 · Documento de trabajo, no indexado en buscadores.</footer>
+</main>
+</body>
+</html>
